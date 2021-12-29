@@ -3,12 +3,9 @@
     height: 820px;
     background: url("image2.jpg");
 
-    .big-orange-raund {
-        position: absolute;
-        width: 1114px;
-        height: 1114px;
-        left: 605px;
-        top: -325px;
-        background: $orange;
+    .big-orange-round {
+        width: 1000px;
+        height: 1000px;
+        background-color: $orange;
     }
 }
