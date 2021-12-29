@@ -10,4 +10,10 @@
   height: 820px;
   background: url("image2.jpg");
 }
+
+.section-1 .big-orange-round {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
 /*# sourceMappingURL=main.css.map */
