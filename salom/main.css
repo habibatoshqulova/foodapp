@@ -1,0 +1,13 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section-1 {
+  width: 1570px;
+  height: 820px;
+  background: url("image2.jpg");
+}
+/*# sourceMappingURL=main.css.map */

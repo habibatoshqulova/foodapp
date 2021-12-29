@@ -1,0 +1,14 @@
+.section-1 {
+    width: 1570px;
+    height: 820px;
+    background: url("image2.jpg");
+
+    .big-orange-raund {
+        position: absolute;
+        width: 1114px;
+        height: 1114px;
+        left: 605px;
+        top: -325px;
+        background: $orange;
+    }
+}
