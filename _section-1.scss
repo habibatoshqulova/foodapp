@@ -2,12 +2,13 @@
     background: url("image2.jpg");
     width: 1370px;
     height: 650px;
+    
 }
   
 .orange-round {
     width: 900px;
     height: 900px;
-    background-color: ;
+    background-color: $orange;
     border-radius: 100%;
     position: absolute;
     left: 530px;
@@ -27,7 +28,7 @@ header {
         font-weight: 900;
         font-size: 45px;
         line-height: 45px;
-        color: #FFFFFF;
+        color: $white;
         margin-right: 290px;
         font-family: 'Montrrat', sans-rif;
         font-family: 'Mulish', sans-rif;
@@ -36,8 +37,8 @@ header {
         font-family: 'Red Hat Display', sans-rif;
     
     
-        $:hover {
-            color: #FE724C;
+        &:hover {
+            color: $orange;
         }
     
   
@@ -45,15 +46,13 @@ header {
             color: #FE724C;
         
         
-            $:hover {
+            &:hover {
                 color: #FFFFFF;
             }
         }
     }
   
     .header-container {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         align-items: center;
     
@@ -75,31 +74,31 @@ header {
             font-family: 'Red Hat Display', sans-rif;
         
             
-            $:hover {
+            &:hover {
                 color: orange;
             }
         }
     }    
         
     .header-btn button {
-            width: 128px;
-            height: 50px;
-            background-color: #FFFFFF;
-            box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
-            border-radius: 100px;
-            font-weight: bold;
-            font-size: 16px;
-            line-height: 22px;
-            text-align: center;
-            color: #FE724C;
-            border: none;
-        
-        
-            $:hover {
-                background-color: #fc977b;
-                color: #FFFFFF;
-            }
+        width: 128px;
+        height: 50px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+        border-radius: 100px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #FE724C;
+        border: none;
+    
+    
+        &:hover{
+            background-color: #fc977b;
+            color: #FFFFFF;
         }
+        
     }
 
 }
@@ -128,7 +127,7 @@ main {
         margin: 20px 0px 35px;
     }
     
-    .braur-container {
+    .brauser-container {
         display: flex;
     
   
@@ -175,21 +174,27 @@ main {
     }
 }  
   
-  
-.phone-food {
-    background-position: center;
-    background-size: cover;
+
+.burger {
     position: absolute;
-    right: 280px;
-    bottom: 10px;
+    right: 295px;
+    bottom: 78px;
     
-  
-    .phone {
+
+    .screen {
         width: 190px;
-        height: 470px;
-        position: relative;
-        left: 5px;
-        top: 5px;
+        height: 414px;
+        border-radius: 20px;
     }
 }
   
+.phone-food {
+    position: absolute;
+    right: 280px;
+    bottom: 35px;
+  
+    .phone {
+        width: 220px;
+        height: 500px;
+    }
+}

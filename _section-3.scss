@@ -1,0 +1,76 @@
+.section-3 {
+    background-color: $orange;
+    padding-top: 110px;
+    position: relative;
+}
+    
+.section-3-container {
+    margin-left: 190px;
+    display: flex;
+
+    h3 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 22px;
+        color: $white;
+    }
+
+    .section-3-line {
+        margin: 24px 0px 100px;
+        width: 63px;
+        height: 2px;
+        background: $white;
+    }
+
+    .box-container {
+
+        .section-3-box{
+            display: flex;
+            margin-bottom: 120px;
+            color: $white;
+
+            .section-3-round {
+                width: 100px;
+                height: 100px;
+                background-color: $white;
+                border-radius: 100%;
+                margin-right: 35px;
+                
+                img{
+                    margin: 30px 35px;
+                    width: 30px;
+                    height: 38px;
+                }
+            }
+
+            p{
+                margin-top: 10px;
+            }
+        }
+
+        
+    }
+}
+
+.pizza-container{
+    margin-top: 30px;
+    position: absolute;
+    top: 110px;
+    right: 200px;
+
+    .iphone {
+        position: absolute;
+
+        right: 0px;
+    }
+
+    .pizza {
+        
+        position: absolute;
+        width: 268px;
+        height: 502;
+        top: 19px;
+        right: 20px;
+    }
+}

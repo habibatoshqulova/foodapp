@@ -1,3 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montrrat', sans-rif;
+  font-family: 'Mulish', sans-rif;
+  font-family: 'Open Sans', sans-rif;
+  font-family: 'Poppins', sans-rif;
+  font-family: 'Red Hat Display', sans-rif;
+}
+
 .section-1 {
   background: url("image2.jpg");
   width: 1370px;
@@ -30,15 +42,13 @@ header .top-logo {
   font-weight: 900;
   font-size: 45px;
   line-height: 45px;
-  -webkit-font-feature-settings: 'liga' off;
-          font-feature-settings: 'liga' off;
   color: #FFFFFF;
   margin-right: 290px;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Mulish', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: 'Montrrat', sans-rif;
+  font-family: 'Mulish', sans-rif;
+  font-family: 'Open Sans', sans-rif;
+  font-family: 'Poppins', sans-rif;
+  font-family: 'Red Hat Display', sans-rif;
 }
 
 header .top-logo:hover {
@@ -72,18 +82,18 @@ header .header-container a {
   color: #FFFFFF;
   text-decoration: none;
   margin-right: 30px;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Mulish', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: 'Montrrat', sans-rif;
+  font-family: 'Mulish', sans-rif;
+  font-family: 'Open Sans', sans-rif;
+  font-family: 'Poppins', sans-rif;
+  font-family: 'Red Hat Display', sans-rif;
 }
 
 header .header-container a:hover {
-  color: #cfcaca;
+  color: orange;
 }
 
-header .header-container .header-btn button {
+header .header-btn button {
   width: 128px;
   height: 50px;
   background-color: #FFFFFF;
@@ -98,7 +108,7 @@ header .header-container .header-btn button {
   border: none;
 }
 
-header .header-container .header-btn button:hover {
+header .header-btn button:hover {
   background-color: #fc977b;
   color: #FFFFFF;
 }
@@ -119,11 +129,11 @@ main h1 {
 main p {
   font-size: 17px;
   line-height: 23px;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Mulish', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: 'Montrrat', sans-rif;
+  font-family: 'Mulish', sans-rif;
+  font-family: 'Open Sans', sans-rif;
+  font-family: 'Poppins', sans-rif;
+  font-family: 'Red Hat Display', sans-rif;
   margin: 20px 0px 35px;
 }
 
@@ -149,11 +159,11 @@ main .brauser-container .brz-box {
 }
 
 main .brauser-container .brz-box a {
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Mulish', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: 'Montrrat', sans-rif;
+  font-family: 'Mulish', sans-rif;
+  font-family: 'Open Sans', sans-rif;
+  font-family: 'Poppins', sans-rif;
+  font-family: 'Red Hat Display', sans-rif;
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -178,31 +188,173 @@ main .brauser-container .google-play .google {
   margin-right: 7.5px;
 }
 
+.burger {
+  position: absolute;
+  right: 295px;
+  bottom: 78px;
+}
+
+.burger .screen {
+  width: 190px;
+  height: 414px;
+  border-radius: 20px;
+}
+
 .phone-food {
-  background-position: center;
-  background-size: cover;
   position: absolute;
   right: 280px;
-  bottom: 10px;
-  /*.phone {
-        width: 200px;
-        height: 500px;
-    }*/
+  bottom: 35px;
 }
 
-.phone-food .screen {
-  width: 190px;
-  height: 470px;
+.phone-food .phone {
+  width: 220px;
+  height: 500px;
+}
+
+.section-2 {
+  width: 1370px;
+  padding-left: 140px;
+}
+
+/*section-2*/
+.section-2-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-2-container .img-container .top-img {
+  margin: 70px 0px 20px;
+}
+
+.section-2-container .img-container .top-img img {
+  margin-right: 20px;
+}
+
+.section-2-container .img-container .btn-img {
   position: relative;
-  left: 5px;
-  top: 5px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.section-2-container .img-container .btn-img .btn-left-img {
+  position: absolute;
+  top: 0px;
+}
+
+.section-2-container .img-container .btn-img .btn-right-img {
+  margin-left: 188px;
+}
+
+.section-2-container .text-container {
+  margin: 110px 0px;
+  padding-left: 20px;
+}
+
+.section-2-container .text-container h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 22px;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.section-2-container .text-container .line {
+  margin-top: 20px;
+  width: 42px;
+  height: 3px;
+  background-color: #EFCA08;
+}
+
+.section-2-container .text-container .bold-text {
+  margin: 22px 0px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.section-2-container .text-container .normal-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #666666;
+}
+
+.section-3 {
+  background-color: #FE724C;
+  padding-top: 110px;
+  position: relative;
+}
+
+.section-3-container {
+  margin-left: 190px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-3-container h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.section-3-container .section-3-line {
+  margin: 24px 0px 100px;
+  width: 63px;
+  height: 2px;
+  background: #FFFFFF;
+}
+
+.section-3-container .box-container .section-3-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 120px;
+  color: #FFFFFF;
+}
+
+.section-3-container .box-container .section-3-box .section-3-round {
+  width: 100px;
+  height: 100px;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+  margin-right: 35px;
+}
+
+.section-3-container .box-container .section-3-box .section-3-round img {
+  margin: 30px 35px;
+  width: 30px;
+  height: 38px;
+}
+
+.section-3-container .box-container .section-3-box p {
+  margin-top: 10px;
+}
+
+.pizza-container {
+  margin-top: 30px;
+  position: absolute;
+  top: 110px;
+  right: 200px;
+}
+
+.pizza-container .iphone {
+  position: absolute;
+  right: 0px;
+}
+
+.pizza-container .pizza {
+  position: absolute;
+  width: 268px;
+  height: 502;
+  top: 19px;
+  right: 20px;
 }
 
 body {
