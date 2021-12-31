@@ -121,19 +121,16 @@ main {
 }
 
 main h1 {
-  font-weight: bold;
+  font-weight: 505;
   font-size: 46px;
   line-height: 54px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 main p {
   font-size: 17px;
   line-height: 23px;
-  font-family: 'Montrrat', sans-rif;
-  font-family: 'Mulish', sans-rif;
-  font-family: 'Open Sans', sans-rif;
-  font-family: 'Poppins', sans-rif;
-  font-family: 'Red Hat Display', sans-rif;
+  font-family: 'Roboto', sans-serif;
   margin: 20px 0px 35px;
 }
 
@@ -159,11 +156,7 @@ main .brauser-container .brz-box {
 }
 
 main .brauser-container .brz-box a {
-  font-family: 'Montrrat', sans-rif;
-  font-family: 'Mulish', sans-rif;
-  font-family: 'Open Sans', sans-rif;
-  font-family: 'Poppins', sans-rif;
-  font-family: 'Red Hat Display', sans-rif;
+  font-family: 'Roboto', sans-serif;
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -225,7 +218,6 @@ main .brauser-container .google-play .google {
   padding-left: 140px;
 }
 
-/*section-2*/
 .section-2-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -264,10 +256,6 @@ main .brauser-container .google-play .google {
   line-height: 22px;
   color: #000000;
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Mulish', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Red Hat Display', sans-serif;
 }
 
 .section-2-container .text-container .line {
@@ -377,6 +365,7 @@ main .brauser-container .google-play .google {
   line-height: 22px;
   text-align: center;
   color: #000000;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .section-4-container .section-4-line {
@@ -408,6 +397,171 @@ main .brauser-container .google-play .google {
 
 .section-4-container .Phone-container .iphones {
   margin-right: 60px;
+}
+
+.grey-container {
+  background-color: #F4F5F7;
+}
+
+.grey-container .section-5-text-container h5 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 64px;
+  text-align: center;
+  -webkit-font-feature-settings: 'liga' off;
+          font-feature-settings: 'liga' off;
+  color: #000000;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 8px 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.grey-container .section-5-text-container p {
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  -webkit-font-feature-settings: 'liga' off;
+          font-feature-settings: 'liga' off;
+  color: #18191F;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.grey-container .section-5-box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 110px;
+}
+
+.grey-container .section-5-box-container .big-container {
+  padding-top: 20px;
+}
+
+.grey-container .section-5-box-container .big-container .small-container {
+  width: 350px;
+  height: 192px;
+  background-color: #FFFFFF;
+  margin-right: 35px;
+  padding: 23px 0px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.grey-container .section-5-box-container .big-container .small-container h4 {
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  -webkit-font-feature-settings: 'liga' off;
+          font-feature-settings: 'liga' off;
+  color: #18191F;
+}
+
+.grey-container .section-5-box-container .big-container img {
+  border-radius: 100%;
+  margin: 25px 150px 10px;
+}
+
+.grey-container .section-5-box-container .big-container .jane {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  -webkit-font-feature-settings: 'liga' off;
+          font-feature-settings: 'liga' off;
+  color: #18191F;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 130px;
+}
+
+.grey-container .section-5-box-container .big-container .ceo {
+  font-size: 14px;
+  line-height: 24px;
+  -webkit-font-feature-settings: 'liga' off;
+          font-feature-settings: 'liga' off;
+  color: #474A57;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 110px;
+}
+
+.grey-container .three-ellipes {
+  margin: 40px 650px 60px;
+}
+
+.last-container {
+  background-color: black;
+  padding: 90px 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #FFFFFF;
+}
+
+.last-container .services {
+  margin: 22px 0px 12px;
+}
+
+.last-container .services a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.last-container .services a:hover {
+  color: #747372;
+}
+
+.last-container .get-app {
+  margin-bottom: 9px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  -webkit-font-feature-settings: 'liga' off;
+          font-feature-settings: 'liga' off;
+  color: #D9DBE1;
+}
+
+.last-container .last-apple {
+  margin-right: 13px;
 }
 
 body {
