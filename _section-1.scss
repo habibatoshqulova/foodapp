@@ -152,10 +152,13 @@ main {
         }
 
         .app-store {
-            background-color: #FE724C;
-            border: 1px solid #FE724C;
+            background-color: $orange;
+            border: 1px solid $orange;
             margin-right: 15px;
-        
+            
+            &:hover {
+                background-color: #fc977b;
+            }
   
             .apple {
                 margin-right: 7.2px;
@@ -163,9 +166,13 @@ main {
         }
   
         .google-play {
-            border: 1px solid #FFFFFF;
+            border: 1px solid $white;
             box-sizing: border-box;
-        
+            
+            &:hover {
+                background-color: $orange;
+                border: 1px solid $orange;
+            }
   
             .google {
                 margin-right: 7.5px;
